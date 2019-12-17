@@ -38,6 +38,7 @@ module.exports = {
     new ManifestPlugin()
   ],
   devServer: {
-    contentBase: './dist'
+    contentBase: './dist',
+    host: '0.0.0.0'
   }
 };
